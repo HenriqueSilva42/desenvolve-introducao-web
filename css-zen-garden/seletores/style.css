@@ -1,0 +1,36 @@
+/* Estilização dos links */
+a {
+    color: red; /* Cor padrão vermelha */
+    text-decoration: none; /* Remover sublinhado padrão */
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+/* Estilização quando o link é sobreposto */
+a:hover {
+    color: lemonchiffon; /* Tonalidade limão quando sobreposto */
+}
+
+/* Parágrafos em geral */
+p {
+    font-family: Arial, sans-serif; /* Fonte Arial */
+}
+
+/* Parágrafos logo após h1 */
+h1 + p {
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilização da classe .destaque */
+.destaque {
+    font-family: Arial, sans-serif; /* Fonte Arial por padrão */
+}
+
+/* Se .destaque é aplicada a um parágrafo */
+.destaque p {
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Se .destaque é aplicada a um <strong> dentro de um parágrafo */
+.destaque p strong {
+    color: red; /* Texto em vermelho */
+}
