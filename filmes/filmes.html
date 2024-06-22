@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        /* Estilos opcionais para melhorar a aparência */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+        .gallery-item p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Filmes Favoritos</h1>
+
+    <div class="gallery">
+        <!-- Filme 1 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/O_Poderoso_Chef%C3%A3o" target="_blank">
+                <img src="filmes/o_poderoso_chefao.jpg" alt="O Poderoso Chefão">
+            </a>
+            <p>O Poderoso Chefão</p>
+        </div>
+
+        <!-- Filme 2 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/Interestelar_(filme)" target="_blank">
+                <img src="filmes/interestelar.jpg" alt="Interestelar">
+            </a>
+            <p>Interestelar</p>
+        </div>
+
+        <!-- Filme 3 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/Matrix" target="_blank">
+                <img src="filmes/matrix.jpg" alt="Matrix">
+            </a>
+            <p>Matrix</p>
+        </div>
+
+        <!-- Filme 4 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/Clube_da_Luta" target="_blank">
+                <img src="filmes/clube_da_luta.jpg" alt="Clube da Luta">
+            </a>
+            <p>Clube da Luta</p>
+        </div>
+
+        <!-- Filme 5 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/Forrest_Gump" target="_blank">
+                <img src="filmes/forrest_gump.jpg" alt="Forrest Gump">
+            </a>
+            <p>Forrest Gump</p>
+        </div>
+
+        <!-- Filme 6 -->
+        <div class="gallery-item">
+            <a href="https://pt.wikipedia.org/wiki/O_Senhor_dos_Aneis:_A_Sociedade_do_Anel" target="_blank">
+                <img src="filmes/o_senhor_dos_aneis.jpg" alt="O Senhor dos Anéis">
+            </a>
+            <p>O Senhor dos Anéis</p>
+        </div>
+    </div>
+</body>
+</html>
 
