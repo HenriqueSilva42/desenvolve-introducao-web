@@ -1,0 +1,15 @@
+/* Exemplo de estilo para o CSS Zen Garden */
+
+/* Definição das cores */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333333; /* Cor para fonte */
+}
+
+/* Exemplo de elemento com cor de destaque */
+.highlight {
+    color: #ff6600; /* Cor de destaque */
+}
+
+/* Outros estilos conforme necessário */
+
