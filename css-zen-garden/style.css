@@ -41,6 +41,11 @@ header p {
 .sidebar li {
     margin-bottom: 1em; /* Espaçamento entre itens do menu */
     text-align: center; /* Centralização dos itens do menu */
+    border-top: 1px solid #ccc; /* Borda superior em todos os itens */
+}
+
+.sidebar li:last-child {
+    border-bottom: 1px solid #ccc; /* Borda inferior apenas no último item */
 }
 
 /* Inversão de cores no rodapé */
@@ -59,33 +64,23 @@ footer a {
     margin: 0 0.5em; /* Espaçamento entre os links */
     text-align: center; /* Centraliza o texto */
     width: 120px; /* Mesmo tamanho para os links */
+    color: #f39c12; /* Cor de destaque padrão */
+    font-weight: bold; /* Negrito por padrão */
+    text-decoration: none; /* Remove sublinhado */
 }
 
-/* Layout de flexbox para a seção de benefícios */
-.benefits {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    border-bottom: 1px solid #ccc; /* Linha no topo */
+footer a:hover {
+    color: #ffc04d; /* Tonalidade mais clara ao sobrepor */
 }
 
-.benefits-text {
-    flex: 0 0 70%; /* Ocupa 70% da largura disponível */
-    padding-right: 2%; /* Espaçamento interno à direita */
+footer a:visited {
+    font-weight: normal; /* Links visitados não estão em negrito */
 }
 
-.benefits-title {
-    flex: 0 0 30%; /* Ocupa 30% da largura disponível */
-    text-align: right; /* Alinha à direita */
-}
-
-/* Layout de flexbox para a seção de participação */
-.participation {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    border-top: 1px solid #ccc; /* Linha no topo */
-}
-
-.participation-item {
-    flex: 0 0 50%; /* Ocupa 50% da largura disponível */
-    text-align: center; /* Centraliza o texto */
+/* Destaque na primeira letra do primeiro parágrafo da seção principal */
+.main p:first-of-type:first-letter {
+    float: left; /* Flutua à esquerda */
+    font-size: 300%; /* Tamanho 3 vezes maior que o padrão */
+    font-family: Georgia, serif; /* Fonte diferente */
+    margin-right: 0.2em; /* Espaçamento à direita */
 }
