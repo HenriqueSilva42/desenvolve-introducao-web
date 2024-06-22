@@ -1,57 +1,91 @@
-/* Exemplo de estilo para o CSS Zen Garden */
-
-/* Definição das cores */
+/* Definições gerais da página */
 body {
-    background-color: #f0f0f0; /* Cor de fundo */
-    color: #333333; /* Cor para fonte */
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
 }
 
-/* Exemplo de elemento com cor de destaque */
-.highlight {
-    color: #ff6600; /* Cor de destaque */
+.intro {
+    height: 550px; /* Altura da seção de introdução */
 }
 
-/* Outros estilos conforme necessário */
-
-/* 1. Aspectos gerais */
-body {
-    max-width: 800px; /* Tamanho fixo para a página */
-    margin: 0 auto; /* Centraliza a página na tela */
-    font-family: Arial, sans-serif; /* Fonte do tipo sans-serif */
-    line-height: 1.5; /* Espaçamento entre as linhas */
+#design-archives {
+    display: none; /* Remove o container #design-archives */
 }
 
-p {
-    text-indent: 1em; /* Indentação dos parágrafos */
+/* Incremento no cabeçalho da página */
+header {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Fonte clara */
+    padding: 1em;
 }
 
-/* 2. Títulos */
-h1, h2, h3 {
-    text-align: center; /* Alinhamento central dos títulos */
+header h1 {
+    display: inline-block;
+    margin-right: 1em;
 }
 
-h1 {
-    font-size: 1.8rem; /* Tamanho do h1 */
+header p {
+    display: inline-block;
+    margin-top: 0.5em;
 }
 
-h2 {
-    font-size: 1.4rem; /* Tamanho do h2 */
+/* Incremento nos menus */
+.sidebar ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0;
 }
 
-h3 {
-    font-size: 1.2rem; /* Tamanho do h3 */
+.sidebar li {
+    margin-bottom: 1em; /* Espaçamento entre itens do menu */
+    text-align: center; /* Centralização dos itens do menu */
 }
 
-/* 3. Seções de resumo e principal */
-.summary {
-    text-align: center; /* Alinhamento central da seção de resumo */
+/* Inversão de cores no rodapé */
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Fonte clara */
+    padding: 2em;
+    display: flex; /* Flexbox no rodapé */
+    justify-content: center; /* Centraliza os itens */
 }
 
-.main {
-    line-height: 1.5; /* Espaçamento entre as linhas da seção principal */
+footer a {
+    display: inline-block;
+    border: 2px solid #fff; /* Borda sólida */
+    padding: 0.5em; /* Espaçamento interno */
+    margin: 0 0.5em; /* Espaçamento entre os links */
+    text-align: center; /* Centraliza o texto */
+    width: 120px; /* Mesmo tamanho para os links */
 }
 
-/* 4. Abreviaturas */
-abbr {
-    font-variant: small-caps; /* Fonte em small-caps para abreviaturas */
+/* Layout de flexbox para a seção de benefícios */
+.benefits {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    border-bottom: 1px solid #ccc; /* Linha no topo */
+}
+
+.benefits-text {
+    flex: 0 0 70%; /* Ocupa 70% da largura disponível */
+    padding-right: 2%; /* Espaçamento interno à direita */
+}
+
+.benefits-title {
+    flex: 0 0 30%; /* Ocupa 30% da largura disponível */
+    text-align: right; /* Alinha à direita */
+}
+
+/* Layout de flexbox para a seção de participação */
+.participation {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    border-top: 1px solid #ccc; /* Linha no topo */
+}
+
+.participation-item {
+    flex: 0 0 50%; /* Ocupa 50% da largura disponível */
+    text-align: center; /* Centraliza o texto */
 }
