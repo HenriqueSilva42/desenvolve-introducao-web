@@ -1,0 +1,43 @@
+/* Estilização dos links */
+a {
+    color: #FF5733; /* Cor de destaque */
+    font-weight: bold; /* Texto em negrito */
+    text-decoration: none; /* Remover sublinhado padrão */
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+/* Estilização quando o link é sobreposto */
+a:hover {
+    color: #FF8657; /* Tonalidade mais clara */
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: #FF5733; /* Mesma cor de destaque */
+    font-weight: normal; /* Texto não mais em negrito */
+}
+
+/* Estilização da primeira letra do primeiro parágrafo da seção principal */
+.main-section p:first-of-type:first-letter {
+    float: left; /* Flutuar à esquerda */
+    font-size: 300%; /* Tamanho da fonte 3 vezes maior que o padrão */
+    font-family: 'Arial', sans-serif; /* Fonte diferente da padrão do site */
+    line-height: 1; /* Ajustar linha para evitar espaçamento extra */
+    margin-right: 0.1em; /* Espaço à direita para evitar colisões com o texto */
+}
+
+/* Estilização do menu de design */
+.design-menu {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão da lista */
+}
+
+/* Bordas entre os itens do menu */
+.design-menu li {
+    border-top: 1px solid #CCCCCC; /* Borda superior cinza entre itens */
+}
+
+/* Borda inferior apenas no último item */
+.design-menu li:last-child {
+    border-bottom: 1px solid #CCCCCC; /* Borda inferior cinza no último item */
+}
