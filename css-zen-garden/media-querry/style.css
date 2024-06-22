@@ -1,0 +1,21 @@
+/* Referência para posicionamento geral */
+.page-wrapper {
+    position: relative;
+}
+
+/* Painel de explicação */
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+
+/* Menu de designs */
+.design-menu {
+    position: absolute;
+    top: 560px; /* Posicionar após a introdução */
+    left: 62%; /* Posicionar após o .explanation */
+    width: 30%; /* Ajustar largura conforme necessário */
+    padding: 0 2%; /* Espaçamento interno horizontal para centralizar */
+}
