@@ -13,3 +13,45 @@ body {
 
 /* Outros estilos conforme necessário */
 
+/* 1. Aspectos gerais */
+body {
+    max-width: 800px; /* Tamanho fixo para a página */
+    margin: 0 auto; /* Centraliza a página na tela */
+    font-family: Arial, sans-serif; /* Fonte do tipo sans-serif */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
+p {
+    text-indent: 1em; /* Indentação dos parágrafos */
+}
+
+/* 2. Títulos */
+h1, h2, h3 {
+    text-align: center; /* Alinhamento central dos títulos */
+}
+
+h1 {
+    font-size: 1.8rem; /* Tamanho do h1 */
+}
+
+h2 {
+    font-size: 1.4rem; /* Tamanho do h2 */
+}
+
+h3 {
+    font-size: 1.2rem; /* Tamanho do h3 */
+}
+
+/* 3. Seções de resumo e principal */
+.summary {
+    text-align: center; /* Alinhamento central da seção de resumo */
+}
+
+.main {
+    line-height: 1.5; /* Espaçamento entre as linhas da seção principal */
+}
+
+/* 4. Abreviaturas */
+abbr {
+    font-variant: small-caps; /* Fonte em small-caps para abreviaturas */
+}
